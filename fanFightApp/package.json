@@ -1,0 +1,27 @@
+{
+  "name": "fanfightapp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/start"
+  },
+  "dependencies": {
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "test/*",
+      "docs/*"
+    ],
+    "delay": 2500
+  },
+  "description": "HDWorkd Task",
+  "main": "app.js",
+  "author": "Akshay Parmar",
+  "license": "ISC"
+}
